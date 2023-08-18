@@ -1,4 +1,4 @@
-!pip install snowflake-connector-python
+pip install snowflake-connector-python
 
 import snowflake.connector
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
